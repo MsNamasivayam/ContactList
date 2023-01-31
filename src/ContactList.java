@@ -28,6 +28,11 @@ public class ContactList
         System.out.println("0. Exit");
     }
 
+    // TODO: Modify the return type of this method
+    public Object getContacts() {
+        return this.contacts;
+    }
+
     /**
      * Asks user for input to create and add a new Person
      * to the contact list
